@@ -1,0 +1,86 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "fullName": "Admin User",
+            "email": "admin@example.com",
+            "password": "1234!@#"
+        }
+    ],
+    "statuses": [
+        {
+            "statusId": 1,
+            "name": "New"
+        },
+        {
+            "statusId": 2,
+            "name": "In Progress"
+        },
+        {
+            "statusId": 3,
+            "name": "Closed"
+        }
+    ],
+    "tickets": [
+        {
+            "ticketId": 1,
+            "fullName": "Dana Levi",
+            "email": "dana.levi@example.com",
+            "statusId": 1,
+            "description": "Every time I try to access the login screen, the page either completely freezes or takes an unusually long time to load. I've tried multiple browsers (Chrome, Edge, Firefox) and devices (laptop, mobile), but the issue persists. This prevents me from logging in at all and accessing the system.",
+            "summary": null,
+            "imageUrl": "https://via.placeholder.com/150?text=login_issue",
+            "solution": null
+        },
+        {
+            "ticketId": 2,
+            "fullName": "Moshe Cohen",
+            "email": "moshe.cohen@example.com",
+            "statusId": 2,
+            "description": "When uploading files through the form, I receive a vague error message: 'Upload failed - please try again later'. I’ve checked the file type and size, and everything seems valid. The same file worked previously. This issue blocks me from submitting critical documents.",
+            "summary": "File uploads fail despite valid input, preventing users from submitting documents",
+            "imageUrl": "https://via.placeholder.com/150?text=upload_error",
+            "solution": "We are checking file size limits on the backend."
+        },
+        {
+            "ticketId": 3,
+            "fullName": "Dana Levi",
+            "email": "dana.levi@example.com",
+            "statusId": 2,
+            "description": "I attempted to reset my password using the link sent to my email. However, when I click the link, it either redirects to a blank page or shows an error saying the token has expired. I've tried the reset process three times with the same result.",
+            "summary": "Password reset links consistently expire or return errors, blocking account recovery.",
+            "imageUrl": "https://via.placeholder.com/150?text=password_issue",
+            "solution": null
+        },
+        {
+            "ticketId": 4,
+            "fullName": "Rina Azulay",
+            "email": "rina.azulay@example.com",
+            "statusId": 3,
+            "description": "On my iPhone 14, when viewing the system in Safari or Chrome, the layout becomes misaligned. Buttons are overlapping, text is cut off, and I can’t scroll through certain sections. This makes it extremely difficult to use the system on mobile.",
+            "summary": "Mobile layout on iPhone is broken, causing severe usability issues on Safari and Chrome",
+            "imageUrl": "https://via.placeholder.com/150?text=mobile_bug",
+            "solution": "CSS fix deployed for iOS devices."
+        },
+        {
+            "ticketId": 5,
+            "fullName": "Moshe Cohen",
+            "email": "moshe.cohen@example.com",
+            "statusId": 3,
+            "description": "I updated the status of a ticket from 'In Progress' to 'Closed', but the customer never received the expected notification email. This has caused confusion and delays, and I’ve had several customers complain about not getting updates on their tickets.",
+            "summary": null,
+            "imageUrl": "https://via.placeholder.com/150?text=notification_bug",
+            "solution": "SMTP server config updated."
+        },
+        {
+            "ticketId": 6,
+            "fullName": "Rina Azulay",
+            "email": "rina.azulay@example.com",
+            "statusId": 1,
+            "description": "After changing several settings in the preferences menu and clicking 'Save', the system crashes unexpectedly. The screen goes blank and then reloads, but the changes are not saved. This happens consistently and disrupts the workflow.",
+            "summary": null,
+            "imageUrl": "https://via.placeholder.com/150?text=save_crash",
+            "solution": null
+        }
+    ]
+}

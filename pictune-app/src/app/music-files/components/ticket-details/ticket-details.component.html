@@ -1,0 +1,15 @@
+ @if(ticket)
+ {<div >
+      <h2>Ticket Details</h2>
+      <p>ID: {{ ticket.ticketId }}</p>
+      <p>Title: {{ ticket.fullName }}</p>
+      <p>Description: {{ ticket.description }}</p>
+      <p>Status: {{ ticket.statusId }}</p>
+      </div>}
+ @if(error)  {  <div >
+      <p>Error: {{ error }}</p>
+    </div>}
+@if(loading){ 
+    <div >
+      <p>Loading...</p>
+    </div>}
