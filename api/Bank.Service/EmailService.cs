@@ -20,7 +20,7 @@ namespace Bank.Service
                 client.EnableSsl = true;
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
                 client.UseDefaultCredentials = false;
-                client.Credentials = new NetworkCredential("nechami3142@gmail.com", "16303142");
+                client.Credentials = new NetworkCredential("nechami3142@gmail.com", "**");//delete password of gmail because it secret
 
                 using (var message = new MailMessage("nechami3142@gmail.com", toEmail, subject, body))
                 {
